@@ -1,0 +1,25 @@
+/* Custom styles for hero section background */
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Reset hero-content styling */
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px;
+    position: relative;
+    z-index: 2;
+    /* Add subtle glass effect for better readability */
+    background: rgba(30, 32, 37, 0.4);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+} 
