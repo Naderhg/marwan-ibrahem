@@ -345,18 +345,14 @@ header.scrolled {
     position: relative;
     overflow: hidden;
     border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #1E2025; /* fallback bg */
     min-height: 300px;
-    height: auto;
+
 }
 
 .portfolio-item img {
     width: 100%;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
     display: block;
 }
 .video-wrapper{
