@@ -358,7 +358,7 @@ header.scrolled {
 .video-wrapper{
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow: hidden;
 }
 .video-wrapper video {
