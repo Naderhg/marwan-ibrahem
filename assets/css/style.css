@@ -722,27 +722,6 @@ footer {
 } 
 
 /* Temporary placeholder styles */
-.about-image img {
-    background: linear-gradient(45deg, #30333A, #1E2025);
-    min-height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    content: "Profile Image";
-    color: var(--text-muted);
-    text-align: center;
-}
-
-.portfolio-item img {
-    background: linear-gradient(45deg, #30333A, #1E2025);
-    min-height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    content: "Portfolio Image";
-    color: var(--text-muted);
-    text-align: center;
-}
 
 /* Update hero without image */
 .hero {
